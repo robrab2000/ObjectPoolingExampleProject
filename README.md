@@ -53,11 +53,7 @@ To deepen your understanding of object pooling and related performance concepts,
 *   **Data Structures for Object Pooling:**
     *   Choosing the right data structure (like `List`, `Queue`, `Stack`, or `HashSet`) for your pool can impact performance. Each has different trade-offs in terms of insertion, deletion, and access times. For a general overview of C# collections:
         *   [Microsoft Docs: Collections in C#](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
-
-*   **Object Pool Expansion Strategies:**
-    *   When an object pool runs out of available objects, it might need to expand. Common strategies include dynamic resizing (instantiating more objects) or throwing an error. Considerations include performance impact vs. predictability.
-    *   [Unity Documentation: Scriptable Object Pools (Advanced example that touches on resizing)](https://learn.unity.com/tutorial/scriptable-object-pools) - While specific, this article demonstrates some advanced concepts.
-
+        * 
 *   **Garbage Collection in Unity/C#:**
     *   Understanding how Unity's garbage collector works is crucial for writing performant C# code.
     *   [Unity Documentation: Understanding automatic memory management](https://docs.unity3d.com/Packages/com.unity.memoryprofiler@0.1/manual/workflow-understanding-memory.html) (See "Automatic Memory Management")
