@@ -53,7 +53,7 @@ To deepen your understanding of object pooling and related performance concepts,
 *   **Data Structures for Object Pooling:**
     *   Choosing the right data structure (like `List`, `Queue`, `Stack`, or `HashSet`) for your pool can impact performance. Each has different trade-offs in terms of insertion, deletion, and access times. For a general overview of C# collections:
         *   [Microsoft Docs: Collections in C#](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
-        * 
+        
 *   **Garbage Collection in Unity/C#:**
     *   Understanding how Unity's garbage collector works is crucial for writing performant C# code.
     *   [Unity Documentation: Understanding automatic memory management](https://docs.unity3d.com/Packages/com.unity.memoryprofiler@0.1/manual/workflow-understanding-memory.html) (See "Automatic Memory Management")
@@ -66,3 +66,6 @@ To deepen your understanding of object pooling and related performance concepts,
 ---
 
 Feel free to explore the code, experiment with the settings, and adapt the object pooling pattern for your own Unity projects!
+
+--
+Rob Homewood
